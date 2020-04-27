@@ -10,6 +10,9 @@ import whistler_daa_emin_diffcoef as dc
 import plasmaconst as pc
 const =pc.plasmaSI()
 constcgs = pc.plasmaCGS()
+
+#This will likely need to be updated to point where the
+#cdf libaray is on your computer
 import os
 os.environ["CDF_LIB"] =  "/Applications/cdf/cdf37_1-dist/lib"
 
